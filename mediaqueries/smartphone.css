@@ -9,3 +9,36 @@ h2 {
     font-size: 18px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1600px !important;
+
+}
+
+.container {
+    width: 85vw;
+    height: 1500px !important;
+    display: flex;
+}
+
+.fa-2 {
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+
+
+html, body {
+    margin: 0; height: 1600px !important; overflow: scroll;
+    /* cursor: none; */
+}
