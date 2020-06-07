@@ -20,7 +20,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1600px !important;
+    height: 1750px !important;
 
 }
 
@@ -39,6 +39,6 @@ footer {
 
 
 html, body {
-    margin: 0; height: 1600px !important; overflow: scroll;
+    margin: 0; height: 1750px !important; overflow: scroll;
     /* cursor: none; */
 }
