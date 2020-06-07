@@ -1,0 +1,18 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1400px;
+
+}
+
+.container {
+    width: 85vw;
+    height: 1260px;
+    display: flex;
+}
+
+html, body {
+    margin: 0; height: 1400px; overflow: scroll;
+    /* cursor: none; */
+}

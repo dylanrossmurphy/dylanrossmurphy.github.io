@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0; height: 100%; overflow: hidden;
+    /* cursor: none; */
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+
+.email-link {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url(/Assets/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+.fa {
+    font-size: 50px;
+}
+
+.fa-2 {
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.inline {
+    display: inline;
+}
+
+p {
+    font-size: 28px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    font-family: gilroy;
+    font-weight: 100;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    width: 85vw;
+    height: 90vh;
+    display: flex;
+}
+
+.main-section {
+
+    flex: 1 0 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+a:hover {
+    color: gray !important;
+}
+
+
+.secondary-section {
+
+    flex: 1 0 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    
+}
+
+.light-btn > i:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+
+main {
+    display: flex;
+}
+
+header {
+    display: flex;
+}
+
+.emoji-hover:hover {
+    display: inline-block;
+    -webkit-animation:spin 0.4s linear 4;
+    -moz-animation:spin 0.4s linear 4;
+    animation:spin 0.4s linear 4; 
+} 
+.emoji {
+    display: inline-block;
+    -webkit-animation:spin 0.4s linear 4;
+    -moz-animation:spin 0.4s linear 4;
+    animation:spin 0.4s linear 4; 
+} 
+
+
+
+
+@-moz-keyframes spin { 50% { -moz-transform: rotate(-45deg); } }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(45deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(45deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(45deg); transform:rotate(45deg); } }
+@-webkit-keyframes spin { 50% { -webkit-transform: rotate(-45deg); } }
+@keyframes spin { 50% { -webkit-transform: rotate(-45deg); transform:rotate(-45deg); } }
+
+.cursor {
+    background-color: rgba(51, 51, 51, 0.5);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
