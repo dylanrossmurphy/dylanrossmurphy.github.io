@@ -1,0 +1,70 @@
+/* elements */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Classes */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    width: 50vw;
+    height: 30vh;
+    margin: 20vh auto;
+  }
+
+.title {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.cell {
+    width: 32%;
+    height: 33.33333333%; 
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    font-size: 6vh;
+    line-height: 10vh;
+    cursor: pointer;
+  }
+
+.one {
+    border-bottom: rgb(199, 199, 199) solid 1.5px;
+    border-right: rgb(199, 199, 199) solid 1.5px;
+}
+.two {
+    border-bottom: rgb(199, 199, 199) solid 1.5px;
+    border-right: rgb(199, 199, 199) solid 1.5px;
+}
+.three {
+    border-bottom: rgb(199, 199, 199) solid 1.5px;
+}
+.four {
+    border-bottom: rgb(199, 199, 199) solid 1.5px;
+    border-right: rgb(199, 199, 199) solid 1.5px;
+}
+.five {
+    border-bottom: rgb(199, 199, 199) solid 1.5px;
+    border-right: rgb(199, 199, 199) solid 1.5px;
+}
+.six {
+    border-bottom: rgb(199, 199, 199) solid 1.5px;
+}
+.seven {
+    border-right: rgb(199, 199, 199) solid 1.5px;
+}
+.eight {
+    border-right: rgb(199, 199, 199) solid 1.5px;
+}
+
+.fa-times, .fa-circle {
+    pointer-events: none;
+}
+
+/* IDs */

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Will This App Be?</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>console.log('What even is this');</h1>
+    </div>
+    <div class="form-div">
+        <form onsubmit="event.preventDefault(); generateImage(event)">
+            <input type="text" maxlength="18" placeholder='placeholder="Tree"' onfocus="this.placeholder = ''"
+            onblur="this.placeholder = 'placeholder=&quot;Tree&quot;'" class="field">
+            <input type="button" class="submit-btn" value="Create">
+        </form>
+    </div>
+    <div class="picture-div">
+        <h2> Enter a noun <br>above and press 'Create'</h2>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
